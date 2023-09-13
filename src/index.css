@@ -1,0 +1,15 @@
+body {
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  background-color: theme("colors.neutral.950");
+  color: theme("colors.neutral.200");
+}
+
+#root {
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
