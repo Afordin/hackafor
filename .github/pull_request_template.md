@@ -24,6 +24,6 @@ Por favor seleciona las opciones que apliquen en tu PR.
 
 <!--Describe las pruebas que has realizado para verificar los cambios si aplica. Proporciona instrucciones para que podamos reproducirlas. Enumera también los detalles pertinentes de la configuración de las pruebas.-->
 
-## 🧩 Otra Información
+## 🧩 Otra información
 
 <!--Cualquier otra información relevante para el PR. Esto puede incluir imágenes de la interfaz de usuario, enlaces a problemas, etc.-->

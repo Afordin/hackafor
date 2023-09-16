@@ -1,7 +1,7 @@
 contact_links:
     - name: 📃 Problema de documentación
       url: https://github.com/Afordin/hackafor/issues/new
-      about: Crear aquí un problema de documentación. Si vez que algo está mal escrito o redactado puedes crear un issue aquí.
+      about: Reporta aquí un problema de documentación. Si ves que algo está mal escrito o redactado puedes crear un issue aquí.
     - name: 🤔 Preguntas y ayuda
       url: https://discord.gg/awVNrq5N
-      about: Conectate a nuestro servidor de Discord para obtener ayuda.
+      about: Conéctate a nuestro servidor de Discord para obtener ayuda.

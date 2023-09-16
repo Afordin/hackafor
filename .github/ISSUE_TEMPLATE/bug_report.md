@@ -10,7 +10,7 @@ labels: 'Status: Unconfirmed'
 
 
 <!--
-  Agrega una descricpión del error o regresión que encontraste.
+  Agrega una descripción del error o regresión que encontraste.
 
   Trata de ser lo más específico posible, incluyendo:
   - ¿Qué estabas intentando hacer?
