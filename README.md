@@ -22,7 +22,6 @@ pnpm dev
 - [pnpm](https://pnpm.io/) - Package manager
 - [Vite](https://vitejs.dev/) - Build tool
 - [React](https://reactjs.org/) - Frontend library
-- [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript
 - [UnoCSS](https://unocss.dev/) - Utility-first CSS framework
 
 ### 🔌 Backend:
