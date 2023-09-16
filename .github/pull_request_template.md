@@ -20,6 +20,10 @@ Por favor seleciona las opciones que apliquen en tu PR.
 - [ ] Breaking change (solución o característica que haría que la funcionalidad existente no funcionara como se esperaba)
 
 
-# 🧪 ¿Cómo puede ser testeado?
+## 🧪 ¿Cómo puede ser testeado?
 
-<!--Describa las pruebas que ha realizado para verificar los cambios si aplica. Proporcione instrucciones para que podamos reproducirlas. Enumere también los detalles pertinentes de la configuración de las pruebas.-->
+<!--Describe las pruebas que has realizado para verificar los cambios si aplica. Proporciona instrucciones para que podamos reproducirlas. Enumera también los detalles pertinentes de la configuración de las pruebas.-->
+
+## 🧩 Otra Información
+
+<!--Cualquier otra información relevante para el PR. Esto puede incluir imágenes de la interfaz de usuario, enlaces a problemas, etc.-->
