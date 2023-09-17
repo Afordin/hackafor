@@ -63,4 +63,4 @@
 
 ## 🐛 Reporte de problemas (Issues)
 
-Si encuentras problemas o errores en el proyecto, siéntete libre de crear un issue en el repositorio. Por favor, proporciona detalles claros sobre el problema y cómo se puede reproducir.
+Si encuentras problemas o errores en el proyecto, siéntete libre de crear un [issue](https://github.com/Afordin/hackafor/issues/new/choose) en el repositorio. Por favor, proporciona detalles claros sobre el problema y cómo se puede reproducir.
