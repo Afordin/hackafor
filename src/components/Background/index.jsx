@@ -5,7 +5,7 @@ export default function Background() {
       <div
         className="absolute inset-0 bg-repeat mix-blend-overlay"
         style={{
-          background: 'url(\'/background-lines.png\')',
+          background: 'url("/background-lines.png")',
           backgroundSize: '1180px',
         }}
       />
@@ -13,7 +13,7 @@ export default function Background() {
       <div
         className="absolute inset-0 bg-repeat mix-blend-overlay"
         style={{
-          background: 'url(\'/background-squares-tile.png\')',
+          background: 'url("/background-squares-tile.png")',
           backgroundSize: '256px',
         }}
       />
@@ -21,7 +21,7 @@ export default function Background() {
       <div
         className="absolute inset-0 bg-repeat mix-blend-overlay"
         style={{
-          background: 'url(\'/background-noise.png\')',
+          background: 'url("/background-noise.png")',
           backgroundSize: '1920px',
         }}
       />
