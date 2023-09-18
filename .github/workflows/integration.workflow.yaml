@@ -1,0 +1,35 @@
+name: CI (Integration)
+
+# Triggered on pull requests to the main branch.
+on:
+  pull_request:
+    branches:
+      - main
+
+# If a workflow of the same name and pull request number is already running
+# and a new workflow is triggered, the old one will be cancelled.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    name: Lint and build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Lint
+        run: pnpm run lint
+
+      - name: Build
+        run: pnpm run build
