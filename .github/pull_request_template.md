@@ -6,7 +6,7 @@ Agrega tu descripción
 
 ## 🎨 Tipo del cambio
 
-Por favor seleciona las opciones que apliquen en tu PR.
+Por favor selecciona las opciones que apliquen en tu PR.
 
 - [ ] Frontend
 - [ ] Backend
