@@ -5,4 +5,4 @@ import 'virtual:uno.css'
 import '@unocss/reset/tailwind-compat.css'
 import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+ReactDOM.createRoot(document.getElementById('root')).render(<App />)
