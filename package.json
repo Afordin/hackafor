@@ -1,34 +1,27 @@
 {
   "name": "hackafor",
-  "type": "module",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "prepare": "npx simple-git-hooks",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "npm run lint -- --fix",
-    "preview": "vite preview",
-    "prepare": "npx simple-git-hooks"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "web:dev": "pnpm --filter web dev",
+    "web:build": "pnpm --filter web build",
+    "web:preview": "pnpm --filter web preview"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.42.0",
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
-    "@unocss/transformer-directives": "^0.55.7",
-    "@vitejs/plugin-react-swc": "^3.3.2",
-    "eslint": "^8.45.0",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.3",
-    "lint-staged": "^14.0.1",
-    "simple-git-hooks": "^2.9.0",
-    "unocss": "^0.55.7",
-    "vite": "^4.4.5"
+    "@antfu/eslint-config": "0.42.0",
+    "eslint": "8.45.0",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react-refresh": "0.4.3",
+    "lint-staged": "14.0.1",
+    "simple-git-hooks": "2.9.0"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"

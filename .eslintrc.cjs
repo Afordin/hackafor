@@ -8,9 +8,11 @@ module.exports = {
     "plugin:react-hooks/recommended",
     "@antfu",
   ],
-  ignorePatterns: ["dist", ".eslintrc.cjs"],
-  parserOptions: { ecmaVersion: "latest", sourceType: "module" },
-  settings: { react: { version: "18.2" } },
+  parserOptions: {
+    ecmaVersion: "latest",
+    sourceType: "module",
+  },
+  settings: { react: { version: "detect" } },
   plugins: ["react-refresh"],
   rules: {
     "react-refresh/only-export-components": [
