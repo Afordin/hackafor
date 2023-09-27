@@ -32,4 +32,5 @@ jobs:
         run: pnpm run lint
 
       - name: Build
+        working-directory: ./apps/front
         run: pnpm run build
