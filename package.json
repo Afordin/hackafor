@@ -1,10 +1,12 @@
 {
   "name": "hackafor",
-  "version": "1.0.0",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@8.8.0",
   "scripts": {
-    "dev": "pnpm --recursive dev",
-    "lint": "pnpm --recursive lint",
-    "fix": "pnpm --recursive fix",
+    "dev": "pnpm -r dev",
+    "lint": "pnpm -r lint",
+    "lint:fix": "pnpm -r lint:fix",
     "prepare": "npx simple-git-hooks"
   },
   "devDependencies": {
@@ -12,9 +14,9 @@
     "simple-git-hooks": "^2.9.0"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged --cwd apps/front && pnpm lint-staged --cwd apps/back"
+    "pre-commit": "pnpm lint-staged --cwd apps/front"
   },
   "lint-staged": {
-    "*": "pnpm run fix"
+    "*": "pnpm run lint:fix"
   }
 }
