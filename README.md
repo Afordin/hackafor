@@ -16,7 +16,7 @@ pnpm i
 pnpm dev
 ```
 
-Puedes ver el archivo [contributing](https://github.com/Afordin/hackafor/blob/main/.github/CONTRIBUTING.md) para ver más información.
+Puedes ver el archivo [contributing](/.github/CONTRIBUTING.md) para ver más información.
 
 ## 🔨 Tecnologías
 ### 🎭 Frontend:
