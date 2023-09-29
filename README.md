@@ -1,6 +1,6 @@
 # 🐹 HackAfor 🐹
 
-![HackAfor header](./public/github/hackafor-github-header.png)
+![HackAfor header](./.github/assets/hackafor-github-header.png)
 
 Proyecto comunitario para la HackAfor.
 
