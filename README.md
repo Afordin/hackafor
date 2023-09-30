@@ -18,15 +18,21 @@ pnpm dev
 
 Puedes ver el archivo [contributing](/.github/CONTRIBUTING.md) para ver más información.
 
+
 ## 🔨 Tecnologías
-### 🎭 Frontend:
----
+
 - [pnpm](https://pnpm.io/) - Package manager
 - [Vite](https://vitejs.dev/) - Build tool
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) -Programming language
+- [JSDoc](https://jsdoc.app/) - Documentation generator
+
+### 🎭 Frontend
+---
 - [React](https://reactjs.org/) - Frontend library
 - [UnoCSS](https://unocss.dev/) - Utility-first CSS framework
+- [shadcn/ui](https://ui.shadcn.com/) - UI components
 
-### 🔌 Backend:
+### 🔌 Backend
 ---
 - [Supabase](https://supabase.io/) - Database
 
